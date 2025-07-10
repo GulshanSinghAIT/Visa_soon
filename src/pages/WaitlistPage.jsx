@@ -154,16 +154,11 @@ const WaitlistPage = () => {
         <div className="w-full max-w-2xl">
           {/* Intro Section */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Join the Waitlist
-            </h1>
+           
             <p className="md:text-lg text-gray-600 mb-6">
-              Be among the first to access exclusive H-1B job opportunities.
+            🎯 Be among the first to access exclusive H-1B job opportunities.
               We'll notify you the moment we launch!
             </p>
-            <div className="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
-              🎯 Join 1,000+ professionals already waiting
-            </div>
           </div>
 
           {/* Form */}
