@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Briefcase, Users, CheckCircle, Globe, Star, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "../logo.svg";
 
 const LandingPage = () => {
   const features = [
@@ -50,9 +51,7 @@ const LandingPage = () => {
         {/* Header */}
         <header className="flex justify-between items-center p-6 lg:p-8">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <Briefcase className="w-5 h-5 text-white" />
-            </div>
+              <img src={logo} alt="VisaFriendly" className="w-8 h-8 text-white" />
             <span className="text-2xl font-bold text-gray-900">VisaFriendly</span>
           </div>
           <Button asChild variant="outline">

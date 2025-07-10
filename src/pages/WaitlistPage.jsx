@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { ArrowLeft, CheckCircle, Loader2, Briefcase } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "../logo.svg";
 
 const WaitlistPage = () => {
   const [formData, setFormData] = useState({
@@ -143,9 +144,7 @@ const WaitlistPage = () => {
           </Link>
         </Button>
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-            <Briefcase className="w-5 h-5 text-white" />
-          </div>
+        <img src={logo} alt="VisaFriendly" className="w-8 h-8 text-white" />
           <span className="text-2xl font-bold text-gray-900">VisaFriendly</span>
         </div>
       </header>
