@@ -136,7 +136,7 @@ const WaitlistPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
 
-      <header className="flex justify-between items-center p-6 lg:p-8">
+      <header className="flex justify-between items-center px-1 py-6 lg:p-8">
         <Button asChild variant="ghost" className="flex items-center">
           <Link to="/">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -157,7 +157,7 @@ const WaitlistPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Join the Waitlist
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="md:text-lg text-gray-600 mb-6">
               Be among the first to access exclusive H-1B job opportunities.
               We'll notify you the moment we launch!
             </p>
