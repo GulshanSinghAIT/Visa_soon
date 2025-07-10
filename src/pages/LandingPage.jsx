@@ -60,10 +60,10 @@ const LandingPage = () => {
         </header>
 
         {/* Main Hero Content */}
-        <div className="flex-1 flex items-center md:justify-center px-6 lg:px-8">
+        <div className="flex-1 flex md:items-center justify-center px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center">
-            <div className="my-6">
-              <div className="inline-flex items-center bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mb-6">
+            <div className="my-8">
+              <div className="inline-flex items-center bg-blue-100 text-blue-800 text-xs md:text-sm font-medium px-3 py-1 rounded-full mb-6">
                 🚀 Launching Soon - Join 1,000+ Professionals
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
