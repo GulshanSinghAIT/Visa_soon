@@ -39,8 +39,8 @@ const LandingPage = () => {
   ];
 
   const stats = [
-    { number: "500+", label: "Companies Ready to Sponsor" },
-    { number: "2,000+", label: "H-1B Jobs Posted Monthly" },
+    { number: "50k+", label: "Companies Ready to Sponsor" },
+    { number: "100k+", label: "H-1B Jobs Posted Monthly" },
     { number: "92%", label: "Success Rate" },
   ];
 
