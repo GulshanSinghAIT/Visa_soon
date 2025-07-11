@@ -74,7 +74,7 @@ const WaitlistPage = () => {
       });
 
       // Send welcome email via secure API
-      const emailResponse = await axios.post('http://localhost:3000/api/send-email', {
+      const emailResponse = await axios.post('/api/send-email', {
         userData: formData
       });
 
