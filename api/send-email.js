@@ -115,7 +115,7 @@ export default async function handler(req, res) {
               
               <!-- CTA Button -->
               <div style="text-align: center; margin: 35px 0;">
-                <a href="https://visafriendly.com" style="display: inline-block; padding: 16px 32px; background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3); transition: all 0.3s ease;">
+                <a href="https://www.visafriendly.com/" style="display: inline-block; padding: 16px 32px; background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3); transition: all 0.3s ease;">
                   Visit VisaFriendly →
                 </a>
               </div>
